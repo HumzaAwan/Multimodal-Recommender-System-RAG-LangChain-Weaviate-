@@ -32,23 +32,7 @@ Batch Movie Imports: Load and embed large datasets.
 
 Image-to-Text Pipeline: Converts poster to text using LMM → enables downstream recommendations.
 
-📦 Install
-bash
-Copy
-Edit
-pip install -U weaviate-client google-generativeai openai langchain
-⚙️ .env Example
-env
-Copy
-Edit
-EMBEDDING_API_KEY=your-google-key
-OPENAI_API_KEY=your-openai-key
-OPENAI_BASE_URL=https://api.openai.com/v1
-🧪 Sample Usage
-python
-Copy
-Edit
-from your_module import mm_rag
+
 
 # Full multimodal RAG: retrieve poster & describe it
 mm_rag("Epic superhero adventure in the mountains")
